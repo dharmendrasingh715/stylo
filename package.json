@@ -1,0 +1,36 @@
+{
+  "name": "stylo",
+  "version": "1.0.0",
+  "description": "A simple css framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmendrasingh715/stylo.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss"
+  ],
+  "author": "dharmendrasingh715@gmail.com, vivekrajkr.mail@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dharmendrasingh715/stylo/issues"
+  },
+  "homepage": "https://github.com/dharmendrasingh715/stylo#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

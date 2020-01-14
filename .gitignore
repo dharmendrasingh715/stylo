@@ -2,3 +2,8 @@
 *.css.map
 *.sass.map
 *.scss.map
+**/.DS_Store
+node_modules
+dist
+.vscode
+package-lock.json

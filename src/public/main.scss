@@ -1,5 +1,14 @@
 @import '../scss/stylo';
 
 body {
-    background-color: #ccc;
+    font-family: $font-family;
+    color: $text-dark;
+    background-color: $secondary-color;
+}
+
+.header {
+    color: $text-light;
+    padding: $spacing-small $spacing-medium;
+    font-size: 1.5em;
+    background-color: $primary-color;
 }

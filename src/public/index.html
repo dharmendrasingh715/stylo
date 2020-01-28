@@ -7,11 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <header class="container header">
         <h1>Stylo</h1>
     </header>
-    <section class="section buttons">
-
+    <section class="container wrapper">
+        <nav class="wrapper-left nav">
+            <ul>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+            </ul>
+        </nav>
+        <main class="main wrapper-right">
+            <section id="buttons" class="section">
+                <ul class="item-group">
+                    <li><button class="primary-btn">Primary button</button></li>
+                    <li><button class="secondary-btn">Secondary button</button></li>
+                </ul>
+            </section>
+        </main>
     </section>
 </body>
 </html>

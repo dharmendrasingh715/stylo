@@ -12,3 +12,28 @@ body {
     font-size: 1.5em;
     background-color: $primary-color;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding-top: $spacing-medium; 
+    padding-bottom: $spacing-medium; 
+
+    .nav {
+        a {
+            display: block;
+            padding: $spacing-x-small $spacing-medium;
+        }
+    }
+
+    .item-group {
+        display: flex;
+        li {
+            margin-right: $spacing-medium;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
